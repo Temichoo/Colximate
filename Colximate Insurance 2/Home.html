@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Colximate Home</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/ionicons.min.css">    
+      <link rel="stylesheet" href="css/animate.css">
+      <style type="text/css">
+      </style>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+      <div class="wrapper">
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo" >
+                              <img src="Colximate 1.jpg" width="200px" height="50px"> <!-- height="50vh" --> 
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="Contact.html">Contact</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+
+            <div class="content">
+                  <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+                  <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+            </div>
+      </div>
+      <footer>
+ 	
+    
+    <div class="social">
+    	<!-- <a href="https://twitter.com/temichoo"><i class="ion-social-twitter"></i></a> -->
+       <!-- <a href="https://www.instagram.com/temichoo/"> <i class="ion-social-instagram"></i></a> -->
+    <a href="https://www.instagram.com/temichoo/">     <i class="ion-social-linkedin"></i></a>
+   <a href="https://temichoo.portfoliobox.net/temitopeswebportfolio">     <i class="ion-cube"></i></a>
+    
+    </div>
+    <div class="footer-text">
+    	<p>
+        	&copy; 2019, All Rights Reserved, Developed by Temitope Adejuyigbe <br> <!-- Made with <i class="ion-happy"></i><i class="ion-happy"></i><i class="ion-happy"></i> -->
+        </p>
+        
+    </div>
+ 
+</footer>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/main.js"></script> <!-- LINK THIS FILE FROM THE JS FOLDER IN THE PROJECTS FOR IT TO WORK, REMEMBER TO MAKE THIS FILE AS WELL-->
+<script src="js/jquery.waypoints.min.js"></script>
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+</body>
+</html>
